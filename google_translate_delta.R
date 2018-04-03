@@ -1,14 +1,29 @@
 library(googleLanguageR)
+library(dplyr)
 gl_auth("RClass-Translator.json")
-library(tuneR)
+library(here)
 
-aws.signature::use_credentials(profile = "polly")
-# language = "ro-RO"
-language = "es-ES"
-gl_language = strsplit(language, "-")[[1]][1]
+langs = googleLanguageR::gl_translate_languages()
 
-text = readLines("datacamp_english.txt")
-text = text[ text != ""]
+root_dir = here::here()
+transdir = file.path(root_dir, "translations")
+readr::write_rds(langs, file.path(transdir, "languages.rds"))
 
-trans_esp = gl_translate(text, target = "es")
-writeLines(trans_esp$translatedText, con = "datacamp_gl_translated.txt")
+text = readLines(file.path(transdir, "datacamp_english.txt"))
+# text = text[ text != ""]
+# all_langs = gl_translate_languages( )
+run_langs = c("fr", "de", "it", "ja", "ko", "pl", "ro", "es")
+df = data_frame(target = run_langs) %>%
+  mutate(app = paste0("_", target))
+
+idf = 1
+
+for (idf in seq(nrow(df))) {
+  outfile = paste0("datacamp_gl_translated", df$app[idf], ".txt")
+  outfile = file.path(transdir, outfile)
+  if (!file.exists(outfile)) {
+    trans_esp = gl_translate(text, target = df$target[idf])
+    writeLines(trans_esp$translatedText,
+               con = outfile)
+  }
+}

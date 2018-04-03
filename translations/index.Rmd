@@ -1,0 +1,42 @@
+---
+title: "Example Translations"
+author: "John Muschelli"
+date: "4/3/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo = FALSE, message = FALSE}
+setwd(file.path(here::here(), "translations"))
+gl = data_frame(
+  Google = list.files(pattern = "datacamp_gl_translated")) %>% 
+  mutate(language = sub(".*_(.*)[.]txt", "\\1", Google))
+dl = data_frame(
+  Deepl = list.files(pattern = "datacamp_deepl_translated")) %>% 
+  mutate(language = sub(".*_(.*)[.]txt", "\\1", Deepl))
+langs = readr::read_rds("languages.rds")
+langs = left_join(langs, gl)
+langs = left_join(langs, dl)
+langs = langs %>% 
+  filter(!is.na(Google) | !is.na(Deepl)) %>% 
+  select(-language) %>% 
+  rename(Language = name)
+langs$original = NA_character_
+langs$original[1] = "datacamp_english.txt"
+make_link = function(txt, link) {
+  txt = rep(txt, length(link))
+  txt = paste0("[", txt, "](", link, ")")
+  txt[is.na(link)] = ""
+  txt
+}
+langs$Google = make_link("Translated", langs$Google)
+langs$Deepl = make_link("Translated", langs$Deepl)
+langs$original = make_link("Original English", langs$original)
+langs = langs %>% 
+  select(original, Language, Google, Deepl)
+knitr::kable(langs)
+```

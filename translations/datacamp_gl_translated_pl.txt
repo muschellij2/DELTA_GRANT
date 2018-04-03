@@ -1,0 +1,27 @@
+DataCamp to strona internetowa zawierająca informacje na temat języka programowania R. Będziemy używać DataCamp, ponieważ DataCamp pozwala ćwiczyć R bez konieczności konfigurowania całego oprogramowania, a ponieważ DataCamp ma kursy obejmujące szeroki zakres tematów, które omówimy na kursach.
+
+Poprzednio zalogowałeś się na DataCamp we wcześniejszej lekcji i po prostu powtórzysz ten proces, wchodząc najpierw na stronę "www.datacamp.com" i klikając logo Google plus, aby się zalogować.
+
+Stąd zostaniesz poproszony o wybranie konta Google. Kliknij odpowiednie konto Google.
+
+Zostaniesz wtedy na stronie głównej DataCamp. Na tej stronie klikniesz "Ucz się" z menu u góry.
+
+Spowoduje to otwarcie rozwijanego menu. Z tego menu wybierz "Wprowadzenie do R" z listy kursów w lewej kolumnie.
+
+Spowoduje to przejście na stronę kursu "Wprowadzenie do R." Tutaj klikniesz "Rozpocznij kurs za darmo".
+
+To otworzy kurs DataCamp. Ten układ będzie używany podczas całego kursu i powinien wyglądać nieco znajomo. Jest podobny do RStudio Cloud, ponieważ masz miejsce, w którym napiszesz swój kod o nazwie SCRIPT kropka R i miejsce, w którym ten kod będzie się nazywał R CONSOLE. Jednak DataCamp różni się tym, że zawiera lekcje i ćwiczenia, które pomogą Ci nauczyć się kodować w języku programowania R. Informacje, których potrzebujesz, będą zawsze znajdować się po lewej stronie okna DataCamp. Na górze pojawi się "ĆWICZENIE". Tekst tutaj wyjaśni ci, co powinieneś wiedzieć, aby ukończyć lekcję.
+
+Poniżej "ĆWICZENIE" znajduje się sekcja "INSTRUKCJE". To okno zawiera szczegółowe instrukcje dotyczące tego, co należy zrobić przed przejściem do następnej części kursu.
+
+Jeśli przewiniesz tę część okna, zauważysz przycisk "Wybierz wskazówkę", który możesz kliknąć. Zawsze będziesz chciał wypróbować ćwiczenie bez brania podpowiedzi; Jeśli jednak utkniesz, możesz skorzystać z opcji "Podejmij wskazówkę".
+
+Teraz, gdy wiesz, gdzie znaleźć instrukcje, możesz rozpocząć naukę kodowania. Cały kod zostanie zapisany w części SCRIPT.R okna DataCamp w prawej górnej części ekranu.
+
+Napisany kod zostanie następnie wykonany lub zostanie wykonany w R CONSOLE w prawym dolnym rogu ekranu.
+
+Aby uruchomić linię kodu, możesz najpierw zaznaczyć linię, którą chcesz uruchomić. Następnie kliknij "Uruchom kod". Spowoduje to wysłanie kodu do konsoli, aby wykonać. W tym przykładzie zobaczysz, że R działa jak kalkulator. Po uruchomieniu kodu "3 + 4" w Konsoli R, otrzymasz odpowiedź zwrotną "7."
+
+Po wykonaniu zadania zadanego w sekcji instrukcji i kliknięciu przycisku "Uruchom kod", aby przetestować odpowiedź, możesz kliknąć "Prześlij odpowiedź".
+
+Jeśli twoja odpowiedź jest poprawna, pojawi się ekran po lewej, aby poinformować Cię, że jesteś gotowy, aby przejść do następnej części kursu. Naciśnij "Enter", aby kontynuować. Informacje tutaj zaczynają się na kursie Wprowadzenie do R DataCamp; jednak Twoim zadaniem jest teraz je zakończyć. DataCamp szacuje, że ten kurs powinien zająć około czterech godzin. Jest ok, jeśli trwa to dłużej lub krócej, ale zdajemy sobie sprawę, że prawdopodobnie nie zrobisz wszystkiego naraz. Wspaniałą rzeczą jest to, że DataCamp zapamięta, kiedy przerwiesz, więc po ponownym zalogowaniu się do DataCamp możesz odebrać miejsce, w którym skończyłeś!

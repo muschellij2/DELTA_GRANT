@@ -1,0 +1,27 @@
+DataCamp è un sito web per conoscere il linguaggio di programmazione R. Utilizzeremo DataCamp perché DataCamp permette di praticare R senza dover impostare tutto il software e perché DataCamp ha corsi che coprono una vasta gamma di argomenti che andremo a coprire nei corsi. 
+
+Avete già effettuato l'accesso a DataCamp in una lezione precedente e ripeterete semplicemente questo processo andando su 'www.datacamp.com' e facendo clic sul logo Google plus per accedere. 
+
+Da qui ti verrà chiesto di scegliere un account Google. Fare clic sull'account Google appropriato.
+
+Sarete quindi sulla home page di DataCamp. In questa pagina, cliccherai su 'Impara' dal menu in alto.
+
+Si aprirà un menu a discesa. Da questo menu, si seleziona 'Introduzione a R' dagli elenchi del Corso nella colonna più a sinistra.
+
+Questo vi porterà alla pagina del corso per 'Introduzione a R.' Qui si farà clic su 'Inizia il corso gratuitamente'.
+
+Questo aprirà il corso DataCamp. Questo layout sarà usato durante il corso e dovrebbe sembrare un po' familiare. È simile a RStudio Cloud in quanto avete un posto dove scriverete il vostro codice chiamato SCRIPT dot R e un posto dove tale codice verrà eseguito chiamato R CONSOLE. Tuttavia, DataCamp è diverso in quanto ha lezioni ed esercizi per aiutarvi a insegnare come codificare nel linguaggio di programmazione R. Le informazioni che dovete imparare saranno sempre sul lato sinistro della finestra DataCamp. Nella parte superiore ci sarà una 'EXERCISE'. Il testo qui sotto vi spiegherà cosa dovete sapere per completare la lezione.
+
+Sotto la sezione "ESERCIZIO" si trova la sezione "ISTRUZIONI". Questa finestra conterrà le istruzioni specifiche per quello che dovrai fare prima di continuare con la parte successiva del corso.
+
+Se si scorre questa parte della finestra, si noterà un pulsante 'Prendi suggerimenti' su cui è possibile fare clic. Si consiglia di provare sempre l'esercizio senza dare un suggerimento; tuttavia, se ci si blocca, fare clic su 'Prendi suggerimento' può essere d'aiuto.
+
+Ora che sai dove trovare le istruzioni, sei pronto per iniziare ad imparare a codificare. Tutto il codice sarà scritto nella parte SCRIPT.R della finestra DataCamp nella parte superiore destra dello schermo. 
+
+Il codice che scriverai sarà poi eseguito, o sarà eseguito, nella CONSOLLA R in basso a destra dello schermo. 
+
+Per eseguire una riga di codice, è possibile prima evidenziare la riga che si desidera eseguire. Quindi fare clic su 'Run Code' (Esegui codice). Questo invierà il codice alla console per l'esecuzione. In questo esempio, si vedrà che R agisce come una calcolatrice. Quando si esegue il codice '3 + 4' nella Console R, si torna alla risposta '7'.
+
+Una volta completato il compito che ti è stato chiesto nella sezione delle istruzioni e cliccato su 'Esegui Codice' per testare la tua risposta, puoi quindi cliccare su 'Invia Risposta'.
+
+Se la risposta è corretta, la schermata a sinistra apparirà per informarti che sei pronto per continuare con la sezione successiva del corso. Premere "Enter" per continuare. Le informazioni qui riportate ti permettono di iniziare il corso Introduzione a R di DataCamp, ma ora è il tuo compito terminarlo. DataCamp stima che questo corso dovrebbe durare circa quattro ore. Va bene se ci vuole più tempo o più breve di questo, ma ci rendiamo conto che probabilmente non farà tutto in una volta. La cosa bella è che DataCamp si ricorderà quando hai lasciato così quando si accede di nuovo a DataCamp si può prendere da dove hai lasciato!
