@@ -1,4 +1,5 @@
 .Rproj.user
 RClass-Translator.json
+.Rhistory
 *.json
 .httr-oauth
