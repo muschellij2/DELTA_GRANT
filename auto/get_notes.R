@@ -3,7 +3,7 @@ library(magrittr)
 library(here)
 library(utf8)
 
-fname = file.path(here::here(), "auto", "DELTA2.pptx")
+fname = file.path(here::here(), "auto", "DELTA.pptx")
 
 xml_notes = function(xml_fname) {
   require(xml2)
@@ -23,7 +23,7 @@ get_gs_pptx_notes = function(fname) {
   if (length(notes) > 0) {
     res = sapply(notes, xml_notes)
     names(res) = basename(notes)
-    res = utf8::utf8_normalize(res, map_quote = TRUE)
+    # res = utf8::utf8_normalize(res, map_quote = TRUE)
     return(res)
   } else {
     return(NULL)
