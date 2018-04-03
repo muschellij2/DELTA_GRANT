@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:09
+A veces es difícil para un instructor tomarse el tiempo
+para grabar sus conferencias. Por ejemplo, estoy en una
+cafetería y puede ser ruidoso.
+
+2
+00:00:09 --> 00:00:18
+Aquí hay un ejemplo de una trama con ejes realmente
+pequeños. Trazamos las variables x contra las y y una
+suavidad entre ellas.
+
