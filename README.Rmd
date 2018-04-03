@@ -22,7 +22,13 @@ install.packages(c("ari", "aws.polly", "ggplot2", "here", "officer", "xml2", "gg
 
 If you have all the requirements, to make the output MP4s, you can simply run 
 ```
-make
+cd auto && make
+```
+
+To make the Google translations, you need a Google Translate API key, and then you would run: 
+
+```
+cd translations && Rscript -e "rmarkdown::render('index.Rmd')"
 ```
 
 # Human recording
@@ -31,6 +37,8 @@ make
 # Automated recordings
 
 The output from `ari` for [Kimberly voice](http://johnmuschelli.com/DELTA_GRANT/auto/kim.mp4) and [Joey voice](http://johnmuschelli.com/DELTA_GRANT/auto/joey.mp4).
+
+After translation, the output in Spanish from `ari` for [Penelope voice](http://johnmuschelli.com/DELTA_GRANT/auto/penelope.mp4) and [Miguel voice](http://johnmuschelli.com/DELTA_GRANT/auto/miguel.mp4).
 
 
 
