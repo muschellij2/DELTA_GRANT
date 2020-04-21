@@ -1,6 +1,7 @@
 library(ari)
 library(aws.polly)
 
+# microsoft can do zh-CN
 aws.signature::use_credentials(profile = "polly")
 
 files = list.files(pattern = ".png$",
