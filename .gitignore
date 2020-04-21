@@ -3,3 +3,9 @@ RClass-Translator.json
 .Rhistory
 *.json
 .httr-oauth
+*Budget*
+DELTA_Budget.xls
+DELTA_Grant.pdf
+DELTA_Grant_Muschelli_Hadavand.pdf
+DELTA_Pres_title.txt
+Muschelli_DELTA_Budget (3)_05.20.19_erv (1).xls
